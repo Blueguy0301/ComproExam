@@ -2,11 +2,13 @@
 
 #include <iostream>
 #include <string>
+// Prints a line and ends with a newline
 void print(std::string s) {
-    std::cout << s;
-}
-void printLn(std::string s) {
     std::cout << s << std::endl;
+}
+// Prints a line without a newline
+void printLn(std::string s) {
+    std::cout << s;
 }
 double getNum(std::string prompt = "") {
     std::string num;

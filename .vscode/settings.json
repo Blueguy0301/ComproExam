@@ -48,6 +48,19 @@
 		"cinttypes": "cpp",
 		"iomanip": "cpp",
 		"ctime": "cpp",
-		"xstring": "cpp"
+		"xstring": "cpp",
+		"compare": "cpp",
+		"concepts": "cpp",
+		"cstring": "cpp",
+		"ios": "cpp",
+		"xfacet": "cpp",
+		"xiosbase": "cpp",
+		"xlocale": "cpp",
+		"xlocinfo": "cpp",
+		"xlocnum": "cpp",
+		"xmemory": "cpp",
+		"xstddef": "cpp",
+		"xtr1common": "cpp",
+		"xutility": "cpp"
 	}
 }
