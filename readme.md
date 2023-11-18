@@ -1,62 +1,24 @@
-<!-- header -->
-
-# README
-
-Please use camelCase (camelCase). first letter is small. example: `thisIsCamelCase`
-<!-- create a easy navigation -->
-Table of Contents
-=================
-- [prerequisites](#prerequisites)
-- [boilerplate codes](#boilerplate-codes)
-- [notes](#notes)
+# Contact Management system
+## Description on PDF
+The contact management system and bank management system both are quite similar.
+You can effortlessly develop a system where you will be able to **incorporate** and **delete** contact details. The system will let customers **add** contacts, with **names** and **email addresses**. The end result of this project will be an application similar to a phonebook application. This project will
+acquaint with you major data handling and data structuring.
 
 
-## prerequisites
-Here are the environment settings and requirements for this project.
- 1. MinGW (gcc) [Download guide](https://code.visualstudio.com/docs/cpp/config-mingw)
- 1. git [Download Link](https://github.com/git-for-windows/git/releases/download/v2.42.0.windows.2/Git-2.42.0.2-64-bit.exe)
- 1. vscode
-    1. vscode extensions
-        1. C/C++
-        1. C/C++ Extension Pack
+## Features
+- Add Contact
+    - names and email addresses
+- Delete Contact
+- Search Contact
+    - by name
+    - by email
+- View Contact
+- Update Contact
+- Exit
 
-## boilerplate codes
+### suggestions/recommendations
+- Add/Delete/View Contact
+    - You can isolate this to different functions para if may mali sa code. you know where to debug.
 
-1. `print(any Value)` : print a line WITH newline
-1. `printLn(any Value)` : print a line WITHOUT newline
-3. `getNum(string Prompt)` : get a number from the user and returns it as an int. (parameter: ` string prompt`). Will keep asking until a valid number is entered.
-4. `getStr(string Prompt)` : get a string from the user and returns it as a string. (parameter: ` string prompt`).
-
-example usage:
-
-```cpp
-#include "../include/snippets.h"  //ALWAYS ADD THIS
-using namespace std;
-int main() {
-    printLn("Hello World! on the first line || ");
-    print("this is on a same line");
-    print("");  // to print a newline
-    int num = getNum("Enter a number:");
-    print("You entered: " + to_string(num));
-    string str = getStr("Enter a string:");
-    print("You entered: " + str);
-    return 0;
-}
-```
-
-output:
-
-```
-Hello World! on the first line || this is on a same line
-
-Enter a number:1231
-You entered: 1231
-Enter a string:1231
-You entered: 1231
-```
-
-## notes
-
-1. ALWAYS Add `#include "../include/snippets.h" ` to the top of your code. for you to use the snippets.
-2. no need to add `#include <iostream>` to your code.
-3. this is just for convenience. you can always add your own snippets. on `snippets.h` and `snippets.cpp` file. (or just tell me)
+- Update & Search Contact
+    - I'll implement this. Kinda complicated. I'll use a binary search tree for this.
