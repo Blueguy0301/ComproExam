@@ -1,5 +1,6 @@
-#include "../include/snippets.h"
+#include "../include/snippets.h"  //ALWAYS ADD THIS
 using namespace std;
-int main(int argc, char const *argv[]) {
+int main() {
+    // Your code here
     return 0;
 }

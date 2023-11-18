@@ -3,22 +3,41 @@
 # README
 
 Please use camelCase (camelCase). first letter is small. example: `thisIsCamelCase`
+<!-- create a easy navigation -->
+Table of Contents
+=================
+- [prerequisites](#prerequisites)
+- [boilerplate codes](#boilerplate-codes)
+- [notes](#notes)
+
+
+## prerequisites
+Here are the environment settings and requirements for this project.
+ 1. MinGW (gcc) [Download guide](https://code.visualstudio.com/docs/cpp/config-mingw)
+ 1. git [Download Link](https://github.com/git-for-windows/git/releases/download/v2.42.0.windows.2/Git-2.42.0.2-64-bit.exe)
+ 1. vscode
+    1. vscode extensions
+        1. C/C++
+        1. C/C++ Extension Pack
 
 ## boilerplate codes
 
-1. `printLn` : print a line WITHOUT newline
-2. `print` : print a line WITH newline
-3. `getNum` : get a number from the user and returns it as an int. (parameter: ` string prompt`). Will keep asking until a valid number is entered.
-4. `getStr` : get a string from the user and returns it as a string. (parameter: ` string prompt`).
+1. `print(any Value)` : print a line WITH newline
+1. `printLn(any Value)` : print a line WITHOUT newline
+3. `getNum(string Prompt)` : get a number from the user and returns it as an int. (parameter: ` string prompt`). Will keep asking until a valid number is entered.
+4. `getStr(string Prompt)` : get a string from the user and returns it as a string. (parameter: ` string prompt`).
 
 example usage:
 
 ```cpp
+#include "../include/snippets.h"  //ALWAYS ADD THIS
+using namespace std;
 int main() {
     printLn("Hello World! on the first line || ");
     print("this is on a same line");
-    print(""); //to print a newline
+    print("");  // to print a newline
     int num = getNum("Enter a number:");
+    print("You entered: " + to_string(num));
     string str = getStr("Enter a string:");
     print("You entered: " + str);
     return 0;
@@ -29,10 +48,11 @@ output:
 
 ```
 Hello World! on the first line || this is on a same line
-Enter a number: 123
-You entered: 123
-Enter a string: hello world
-You entered: hello world
+
+Enter a number:1231
+You entered: 1231
+Enter a string:1231
+You entered: 1231
 ```
 
 ## notes
