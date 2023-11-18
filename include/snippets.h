@@ -1,6 +1,33 @@
+#include <iostream>
 #include <string>
-// Purpose: Contains function prototypes for snippets.cpp
-void print(std::string s);
-void printLn(std::string s);
-double getNum(std::string prompt);
-std::string getStr(std::string prompt);
+// prints in a new line
+template <typename T>
+void print(T Value) {
+    std::cout << Value << std::endl;
+}
+// Prints in the same line
+template <typename U>
+void printLn(U s) {
+    std::cout << s;
+};
+double getNum(std::string prompt = "") {
+    std::string num;
+    char* p;
+    do {
+        std::cout << prompt;
+        std::cin >> num;
+        double convertedNum = strtod(num.c_str(), &p);
+        if (*p)
+            std::cout << "Invalid input" << std::endl;
+        else
+            return convertedNum;
+
+    } while (true);
+    return 0;
+}
+std::string getStr(std::string prompt) {
+    std::string s;
+    std::cout << prompt;
+    getline(std::cin, s);
+    return s;
+}

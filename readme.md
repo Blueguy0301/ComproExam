@@ -19,7 +19,6 @@ int main() {
     print("this is on a same line");
     print(""); //to print a newline
     int num = getNum("Enter a number:");
-    print("You entered: " + to_string(num)); //always convert to string before printing
     string str = getStr("Enter a string:");
     print("You entered: " + str);
     return 0;
