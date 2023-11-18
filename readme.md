@@ -9,19 +9,19 @@ Table of Contents
 - [prerequisites](#prerequisites)
 - [boilerplate codes](#boilerplate-codes)
 - [notes](#notes)
-- [guides](#guides) // go to /guides/contactManagementSystem.md
+- [guides](#guides)
 
 ## prerequisites
-Here are the environment settings and requirements for this project.
+- Here are the environment settings and requirements for this project.
  1. MinGW (gcc) [Download guide](https://code.visualstudio.com/docs/cpp/config-mingw)
  1. git [Download Link](https://github.com/git-for-windows/git/releases/download/v2.42.0.windows.2/Git-2.42.0.2-64-bit.exe)
  1. vscode
     1. vscode extensions
         1. C/C++
         1. C/C++ Extension Pack
+- fork the repository. [(click here)](https://github.com/Angelo11199/comproFinal/fork). Click create Fork.
 
 ## boilerplate codes
-
 1. `print(any Value)` : print a line WITH newline
 1. `printLn(any Value)` : print a line WITHOUT newline
 3. `getNum(string Prompt)` : get a number from the user and returns it as an int. (parameter: ` string prompt`). Will keep asking until a valid number is entered.
@@ -56,12 +56,12 @@ You entered: 1231
 ```
 
 ## notes
-
+1. two person per system. 
 1. ALWAYS Add `#include "../include/snippets.h" ` to the top of your code. for you to use the snippets.
 2. no need to add `#include <iostream>` to your code.
-3. this is just for convenience. you can always add your own snippets. on `snippets.h` and `snippets.cpp` file. (or just tell me)
+3. this is just for convenience. you can always add your own snippets. on `snippets.h` file. (or just tell me)
 
 ## Guides
 - [Contact Management system](/guides/contactMangagementSystem.md)
 - [Bank Management system](/guides/bankManagementSystem.md)
-- [Library Management system](/guides/libraryManagementSystem.md)
+- [Student Record Management system](/guides/studentRecordManagementSystem.md)
