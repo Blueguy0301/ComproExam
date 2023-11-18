@@ -9,7 +9,7 @@ Table of Contents
 - [prerequisites](#prerequisites)
 - [boilerplate codes](#boilerplate-codes)
 - [notes](#notes)
-
+- [guides](#guides) // go to /guides/contactManagementSystem.md
 
 ## prerequisites
 Here are the environment settings and requirements for this project.
@@ -60,3 +60,8 @@ You entered: 1231
 1. ALWAYS Add `#include "../include/snippets.h" ` to the top of your code. for you to use the snippets.
 2. no need to add `#include <iostream>` to your code.
 3. this is just for convenience. you can always add your own snippets. on `snippets.h` and `snippets.cpp` file. (or just tell me)
+
+## Guides
+- [Contact Management system](/guides/contactMangagementSystem.md)
+- [Bank Management system](/guides/bankManagementSystem.md)
+- [Library Management system](/guides/libraryManagementSystem.md)
