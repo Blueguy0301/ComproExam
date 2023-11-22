@@ -1,4 +1,8 @@
+
 # Bank Management System
+## Assigned Members
+1. Elijah Fernandez
+2. GianLorenzo Almario
 ## Description on PDF
 This is a very common project and can make you a pro in C++, all you have to do is:
 1. Open an account
